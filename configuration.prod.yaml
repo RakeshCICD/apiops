@@ -1,5 +1,13 @@
 apimServiceName: prod-apim-cicd
 namedValues:
+  - name: demonamevalue
+    properties:
+      displayName: demonamevalue
+      value: "https://www.search2.com"
+  - name: demonamevalue2
+    properties:
+      displayName: demonamevalue2
+      value: "demonamevalue2"
 loggers:
 diagnostics:
 backends:
