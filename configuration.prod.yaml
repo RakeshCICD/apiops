@@ -7,7 +7,9 @@ namedValues:
   - name: demonamevalue2
     properties:
       displayName: demonamevalue2
-      value: "demonamevalue2"
+      keyVault:
+        identityClientId: 9b177356-0cf1-4303-913b-e6581ceeb77b
+        secretIdentifier: https://keyvault-cicd.vault.azure.net/secrets/prod-kv-demo-rk/77836a15cb31426ca4d995d12168bed1
 loggers:
 diagnostics:
 backends:
